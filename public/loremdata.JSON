@@ -1,0 +1,19 @@
+[
+    {
+        "title": " lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.",
+        "img":"./images/lorem1.png",
+        "btn":"Read More"
+    },
+    {
+        "title": " lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.",
+        "img":"./images/lorem2.png",
+        "btn":"Learn More"
+
+    },
+    {
+        "title": "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.",
+        "img":"./images/lorem3.png",
+        "btn":"Earn More"
+    }
+    
+]

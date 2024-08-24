@@ -1,0 +1,45 @@
+import React from 'react'
+
+const Card = ({img,pra,but}) => {
+  return (
+    <div className='relative '>
+      <img className='w-[339px] h-[401px]' src={img} alt="" />
+      <p className='absolute top-[167px] left-[72px] w-[140px]'>{pra}</p>
+      <button className='bg-red-500 absolute top-[290px] left-[72px] py-1 px-6 mt-6 text-white'>{but}</button>
+     </div>
+     
+    
+  )
+}
+
+export default Card
+
+
+================================
+
+
+import React from 'react'
+import Card from '../Lorem/Card'
+import Container from './../Laouts/Container'
+import Lorem1 from './../../../public/images/lorem1.png'
+import Lorem2 from './../../../public/images/lorem2.png'
+import Lorem3 from './../../../public/images/lorem3.png'
+
+const Lorem = () => {
+  return (
+    <div className='md:flex justify-center pt-[136px] mr-[390px] pb-[100px] bg-[#F0F0F0] w-full'>
+    <Container>
+       <div className='grid grid-cols-3 gap-x-10'>
+     <Card img={Lorem1} pra='lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.' but='Read more'/>
+     <Card img={Lorem2} pra='lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.' but='Read more'/>
+     <Card img={Lorem3} pra='lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.' but='Read more'/>
+     </div>
+    
+    </Container>
+    
+    </div>
+    
+  )
+}
+
+export default Lorem
